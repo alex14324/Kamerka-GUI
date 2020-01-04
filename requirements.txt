@@ -1,0 +1,13 @@
+requests==2.22.0
+Django==2.2.7
+celery_progress
+celery
+redis
+flickrapi==2.4.0
+django_jsonfield==1.3.1
+pybinaryedge==0.5
+pycountry==19.8.18
+shodan==1.19.0
+python_twitter==3.5
+bs4
+pynmea2
