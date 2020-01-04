@@ -4,20 +4,7 @@
 
 ### Powered by Shodan - Supported by Binary Edge & WhoisXMLAPI
 
-writeup - https://medium.com/@woj_ciech/hack-the-planet-with-%EA%93%98amerka-gui-ultimate-internet-of-things-industrial-control-systems-5ff7d9686b29   
-Demo - https://woj-ciech.github.io/kamerka-demo/kamerka.html
 
-## Update 15-11.2019 - Maritime support
-https://twitter.com/the_wojciech/status/1195381924098904065
-
-## Update 24-11.2019 - NMEA support
-https://twitter.com/the_wojciech/status/1198598585182494720
-
-## Update 01-12-2019 - Axis, RDP, VNC, Screenshot support
-https://twitter.com/the_wojciech/status/1201159932499963905
-
-## Update 11-12-2019 - Lots of new devices
-https://twitter.com/the_wojciech/status/1204774550241722368
 
 ## Requirements
 - beautiful soup
@@ -324,11 +311,3 @@ It's also possible to upload and host the tool online, if you want to help, dm m
 - Keeping keys in db
 - Your ideas
 
-# Remarks
-- Tested only on Kali Linux 2019.3
-- It uses default sqlite Django database
-- Buttons in Intel tab for device do not show the progress bars, you have a results in max couple of seconds.
-- Own database button does not work, it shows that it's possible to load your own geolocation database. I haven't found better than Shodan's but let me know if you have access to one.
-- Looking for nearby Tweets works but I wasn't able to find any tweets. It may be a problem with Twitter API. Let me know if you can find anything.
-- Don't blame me for unintentional bug that might exhaust your Shodan/BinaryEdge/WHOISXMLAPI credits.
-- I'm not responsible for any damage caused by using this tool.
